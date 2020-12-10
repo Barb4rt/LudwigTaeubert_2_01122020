@@ -222,7 +222,7 @@ Filter
     color: #0065FC;
 }
 
-.filter__btn p {
+.filter__btn span {
     font-family: 'Raleway', sans-serif;
     display: inline-flex;
     margin: auto 1em;

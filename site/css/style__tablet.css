@@ -197,7 +197,7 @@ button {
     margin-bottom: 0.8em;
 }
 
-.filter__btn p {
+.filter__btn span {
     font-family: 'Raleway', sans-serif;
     display: inline-flex;
     margin: auto 1em;
