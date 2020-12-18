@@ -33,7 +33,6 @@ button {
 .flow {
     width: 100%;
     max-height: 100%;
-    padding: 0 1.25rem 0 1.25rem;
 }
 
 .navbar {
@@ -68,14 +67,12 @@ button {
     height: 2.5rem;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 1rem;
-    padding: 0;
+    padding: 0 0 0 1.25rem;
 }
 
 .navbar li:nth-of-type(2) {
     margin-top: 2rem;
     order: 3;
-    padding-left: 1rem;
     border-bottom: 0.15rem solid #f2f2f2;
 }
 
@@ -89,6 +86,7 @@ button {
 .navbar li:nth-of-type(4) {
     order: 2;
     justify-content: flex-end;
+    padding: 0 1.25rem 0 0;
 }
 
 .navbar li:nth-of-type(2):hover,
@@ -103,6 +101,7 @@ button {
     flex-direction: column;
     width: 100%;
     font-size: 0.8em;
+    padding: 0 1.25rem 0 1.25rem;
 }
 
 .search p {
@@ -314,8 +313,8 @@ MAIN
     font-size: 0.75em;
     border-radius: 1rem;
     background-color: #FFF;
+    padding: 0.2rem;
     overflow: hidden;
-    border: 0.32rem solid #fff;
     margin: auto;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.10);
 }
@@ -360,6 +359,7 @@ MAIN
 
 .prev__card__imgbox--aside {
     width: 8rem;
+    border-radius: 0.8rem 0 0 0.8rem;
 }
 
 .prev__card__text--aside {
@@ -394,6 +394,7 @@ MAIN
 
 .prev__card__imgbox--section {
     max-height: 70%;
+    border-radius: 0.8rem 0.8rem 0 0;
 }
 
 .prev__card__text--section {
@@ -421,6 +422,7 @@ MAIN
     display: flex;
     flex-flow: column;
     margin-bottom: 3rem;
+    padding: 0 1.25rem 0 1.25rem;
 }
 
 .activities__grid {

@@ -246,12 +246,13 @@
             height: 39rem;
             display: flex;
             margin-bottom: 4rem;
+            justify-content: space-between;
         }
         
         #host {
             display: flex;
             height: 100%;
-            max-width: 70%;
+            width: 70%;
             flex-flow: column nowrap;
             justify-content: space-between;
             flex: 2;
@@ -263,7 +264,7 @@
         
         #main aside {
             display: flex;
-            max-width: 30%;
+            width: 30%;
             flex-flow: column nowrap;
             order: 1;
             padding: 0 2rem;
@@ -301,10 +302,11 @@
             display: flex;
             font-size: 0.75em;
             border-radius: 1rem;
-            background-color: #FFF;
             overflow: hidden;
-            border: 0.32rem solid #fff;
+            padding: 0.2rem;
+            background-color: white;
             transition: 0.5s ease-in-out;
+            box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.10);
         }
         
         .prev__card:hover {
@@ -340,12 +342,12 @@
             flex-flow: column;
             justify-content: center;
             height: 12.5rem;
-            box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.10);
         }
         
         .prev__card__imgbox--section {
             height: 70%;
             flex: 2;
+            border-radius: 0.8rem 0.8rem 0 0;
         }
         
         .prev__card__text--section {
@@ -380,11 +382,11 @@
         .prev__card--aside {
             width: 100%;
             height: 9rem;
-            box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.10);
         }
         
         .prev__card__imgbox--aside {
             width: 8rem;
+            border-radius: 0.8rem 0 0 0.8rem;
         }
         
         .prev__card__text--aside {
