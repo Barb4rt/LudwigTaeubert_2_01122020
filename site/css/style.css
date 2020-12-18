@@ -304,7 +304,6 @@
             background-color: #FFF;
             overflow: hidden;
             border: 0.32rem solid #fff;
-            scale: 1;
             transition: 0.5s ease-in-out;
         }
         
@@ -433,7 +432,6 @@
             overflow: hidden;
             box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.10);
             transition: 0.5s;
-            scale: 1;
         }
         
         .activities__card:hover {
