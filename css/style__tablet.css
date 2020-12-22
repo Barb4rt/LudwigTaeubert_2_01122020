@@ -413,6 +413,10 @@ button {
     padding: 0 1rem;
 }
 
+#activities h2 {
+    padding: 0 1rem;
+}
+
 .activities__grid {
     height: 18rem;
     display: grid;

@@ -390,6 +390,7 @@ MAIN
     flex-flow: column;
     justify-content: center;
     max-height: 12.5rem;
+    width: 100%;
 }
 
 .prev__card__imgbox--section {
@@ -422,6 +423,10 @@ MAIN
     display: flex;
     flex-flow: column;
     margin-bottom: 3rem;
+    padding: 0 1.25rem 0 1.25rem;
+}
+
+#activities h2 {
     padding: 0 1.25rem 0 1.25rem;
 }
 
@@ -478,7 +483,7 @@ MAIN
     flex-flow: column wrap;
     justify-content: space-between;
     width: 14rem;
-    padding: 0;
+    padding: 0 1.25rem 0 1.25rem;
 }
 
 .footer__column li {
